@@ -2,22 +2,3 @@ backend:
   name: github
   repo: derrydrmwn1-commits/blog-kopi-utama
   branch: main
-  # Menggunakan skrip otentikasi bawaan agar langsung memicu login GitHub
-  auth_type: implicit
-
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
-
-collections:
-  - name: "posts"
-    label: "Artikel / Berita Bola"
-    folder: "content/posts"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Judul Artikel", name: "title", widget: "string" }
-      - { label: "Tanggal Publish", name: "date", widget: "datetime" }
-      - { label: "Ringkasan Singkat (Summary)", name: "summary", widget: "text", required: false }
-      - { label: "Kategori", name: "categories", widget: "list", default: ["berita-bola"] }
-      - { label: "Gambar Utama", name: "image", widget: "image", required: false }
-      - { label: "Isi Konten Artikel", name: "body", widget: "markdown" }
