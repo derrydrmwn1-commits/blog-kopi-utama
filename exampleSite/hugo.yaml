@@ -1,17 +1,17 @@
 baseURL: https://jadwalbola.online/
-languageCode: 'en-US'
-title: 'Kopi'
+languageCode: 'id-ID'
+title: 'Jadwal Bola Online'
 theme: 'kopi'
 params:
-  subtitle: 'A modern, fast, and responsive Hugo theme'
+  subtitle: 'Jadwal Pertandingan Hari Ini, Prediksi Skor, & Berita Bola Terupdate'
   author:
-    name: "Kopi Author"
-    bio: "Passionate about web development, open source, and creating fast user experiences."
+    name: "Redaksi JadwalBola"
+    bio: "Menyajikan informasi jadwal siaran langsung sepak bola harian, prediksi skor akurat, dan berita transfer pemain terupdate."
     link: "/about"
-    role: "Theme Developer"
+    role: "Editor"
   manifest:
-    name: 'Kopi Theme'
-    short_name: 'Kopi'
+    name: 'Jadwal Bola Online'
+    short_name: 'JadwalBola'
     start_url: '/'
     display: 'standalone'
     background_color: '#ffffff'
@@ -23,17 +23,15 @@ menus:
     - name: 'Home'
       pageRef: '/'
       weight: 10
-    - name: 'Topics'
-      identifier: 'topics'
-      url: '#'
+    - name: 'Jadwal Hari Ini'
+      pageRef: '/categories/jadwal-bola'
       weight: 20
-    - name: 'Hugo'
-      parent: 'topics'
-      pageRef: '/hugo'
-      weight: 10
-    - name: 'About'
-      url: '#'
+    - name: 'Berita Terbaru'
+      pageRef: '/categories/berita-bola'
       weight: 30
+    - name: 'Prediksi Skor'
+      pageRef: '/categories/prediksi'
+      weight: 40
 
 module:
   hugoVersion:
