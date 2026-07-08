@@ -2,6 +2,8 @@ backend:
   name: github
   repo: derrydrmwn1-commits/blog-kopi-utama
   branch: main
+  # Menggunakan skrip otentikasi bawaan agar langsung memicu login GitHub
+  auth_type: implicit
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
