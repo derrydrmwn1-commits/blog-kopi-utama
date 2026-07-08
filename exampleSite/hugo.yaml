@@ -1,7 +1,8 @@
 baseURL: https://jadwalbola.online/
 languageCode: 'id-ID'
 title: 'Jadwal Bola Online'
-theme: 'kopi'
+themesDir: ".."
+theme: "."
 params:
   subtitle: 'Jadwal Pertandingan Hari Ini, Prediksi Skor, & Berita Bola Terupdate'
   googleSiteVerification: '_SCKpesznahXZKewCMwFs6b0QdmYtaAJUmoro0Y72qo'
