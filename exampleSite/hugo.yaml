@@ -4,6 +4,7 @@ title: 'Jadwal Bola Online'
 theme: 'kopi'
 params:
   subtitle: 'Jadwal Pertandingan Hari Ini, Prediksi Skor, & Berita Bola Terupdate'
+  googleSiteVerification: '_SCKpesznahXZKewCMwFs6b0QdmYtaAJUmoro0Y72qo'
   author:
     name: "Redaksi JadwalBola"
     bio: "Menyajikan informasi jadwal siaran langsung sepak bola harian, prediksi skor akurat, dan berita transfer pemain terupdate."
