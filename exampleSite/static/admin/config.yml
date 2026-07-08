@@ -3,13 +3,13 @@ backend:
   repo: derrydrmwn1-commits/blog-kopi-utama
   branch: main
 
-media_folder: "exampleSite/static/images/uploads"
+media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
 collections:
   - name: "posts"
     label: "Artikel / Berita Bola"
-    folder: "exampleSite/content/posts"
+    folder: "content/posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
